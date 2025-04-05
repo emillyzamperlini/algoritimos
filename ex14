@@ -1,0 +1,13 @@
+salario = float(input('salario : '))
+
+if salario < 800 :
+    novosal = salario * 1.15
+    print("salario com reajuste: {:.2f}".format(novosal))
+
+elif salario >= 800 and salario <= 1500 : 
+    novosal = salario * 1.10
+    print("salario com reajuste: {:.2f}".format(novosal))
+
+elif salario > 1500 :
+    novosal = salario * 1.05
+    print("salario com reajuste: {:.2f}".format(novosal))

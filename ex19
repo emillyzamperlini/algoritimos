@@ -1,0 +1,14 @@
+a = float(input("coeficiente a : "))
+b = float(input("coeficiente b : "))
+c = float(input("coeficiente c : "))
+
+delta = (b**2)- (4*a*c)
+
+if delta >= 0 :
+    raiz1 = (-b + ((b**2)- (4*a*c))**0.5)/2
+    raiz2 = (-b - ((b**2)- (4*a*c))**0.5)/2
+    print(delta)
+    print('possui duas raizes\n as raizes são : {}, {}'.format(raiz1, raiz2))
+
+else :
+    print('não há raizes reais')

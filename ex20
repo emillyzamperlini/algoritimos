@@ -1,0 +1,18 @@
+X = float(input('informe o ponto X da coordenada'))
+Y = float(input('informe o ponto Y da coordenada'))
+
+if X > 0 and Y > 0 :
+    print('Coordenadas ({},{}) localizadas no primeiro quadrante'.format(X, Y))
+
+elif X < 0 and Y > 0 :
+    print('Coordenadas ({},{}) localizadas no segundo quadrante'.format(X, Y))
+
+elif X < 0 and Y < 0 :
+    print('Coordenadas ({},{}) localizadas no terceiro quadrante'.format(X, Y))
+
+elif X > 0 and Y < 0 :
+    print('Coordenadas ({},{}) localizadas no quarto quadrante'.format(X, Y))
+
+else :
+    print('a coordenada não se encontra em nenhum quadrante')
+

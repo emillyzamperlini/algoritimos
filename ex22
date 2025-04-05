@@ -1,0 +1,12 @@
+lados = int(input("digite o número de lados de um poligono regular : "))
+
+if lados < 3 :
+    print("não é um polígono")
+elif lados == 3 :
+    print("triângulo")
+elif lados == 4 :
+    print("quadrado")
+elif lados == 5 :
+    print("pentágono")
+elif lados > 5 :
+    print("não identificado ")

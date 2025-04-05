@@ -1,0 +1,12 @@
+#estrutura condicional 
+nota1 = float(input('primeira nota: '))
+nota2 = float(input('segunda nota: '))
+media = (nota1 + nota2)/2
+
+print("media : {}".format(media))
+
+if media >= 7:
+    print('aluno aprovado por média.')
+else:
+    print('aluno não aprovado por média. ')
+

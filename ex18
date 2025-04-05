@@ -1,0 +1,11 @@
+idade = int(input("informe a idade : "))
+sexo = str(input("informe o sexo, sendo F para feminino e M para masculino: "))
+
+if idade > 60 and sexo == 'F':
+    print("Funcionário tem condições para aposentar")
+
+elif idade > 65 and sexo == 'M':
+    print("Funcionário tem condições para aposentar")
+
+else :
+    print("Funcionário não tem condições para aposentar")

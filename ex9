@@ -5,3 +5,4 @@ if valor1 < valor2:
     print('menor valor: {}'.format(valor1))
 else:
     print('menor valor: {}'.format(valor2))
+#estrutura condicional 

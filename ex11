@@ -1,0 +1,10 @@
+valor1 = float(input('valor 1: '))
+valor2 = float(input('valor 2: '))
+soma = valor1 + valor2 
+
+if soma >= 10:
+    soma = soma + 5
+    print(soma)
+else:
+    soma = soma - 7
+    print(soma)

@@ -1,0 +1,13 @@
+valor1 = float(input('valor 1: '))
+valor2 = float(input('valor 2: '))
+operacao = str(input('digite uma operação matemática : '))
+
+if operacao == '+':
+    print(valor1 + valor2)
+elif operacao == '-':
+    print(valor1 - valor2)
+elif operacao == '*':
+    print(valor1 * valor2)
+elif operacao == '/':
+    print(valor1 / valor2)
+    
