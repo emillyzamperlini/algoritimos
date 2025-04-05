@@ -1,0 +1,4 @@
+co = float(input('digite o cateto oposto: '))
+ca = float(input('digite o cateto adjascente: '))
+hipotenusa = ((co**2)+(ca**2))*0.5
+print('a hipotenusa é: {:.2f}'.format(hipotenusa))
