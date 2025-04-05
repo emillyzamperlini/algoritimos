@@ -1,0 +1,13 @@
+qtdburguer = int(input('quantidade de hamburgueres consumidos: '))
+qtdcheese = int(input('quantidade de cheeseburgueres consumidos: '))
+qtdshake = int(input('quantidade de milkshakes consumidos: '))
+qtdcoca = int(input('quantidade de coca-colas consumidas: '))
+
+p1 = 3.5 * qtdburguer 
+p2 = 4.1 * qtdcheese
+p3 = 6 * qtdshake  
+p4 = 2.5 * qtdcoca
+
+total = p1 + p2 + p3 + p4
+
+print('O valor total dos consumidos é: {:.2f}'.format(total))

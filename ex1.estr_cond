@@ -1,0 +1,7 @@
+valor1 = float(input('digite valor 1: '))
+valor2 = float(input('digite valor 2: '))
+
+if valor1 < valor2:
+    print('menor valor: {}'.format(valor1))
+else:
+    print('menor valor: {}'.format(valor2))
