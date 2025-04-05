@@ -1,0 +1,6 @@
+valor1 = int(input('digite o valor 1: '))
+valor2 = int(input('digite o valor 2: '))
+soma = valor1 + valor2 
+subt = valor1 - valor2
+mult = valor1 * valor2
+print(' soma: {}\n subtração: {}\n multiplicação: {}'.format(soma, subt, mult))
