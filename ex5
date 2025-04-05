@@ -1,1 +1,6 @@
-TEste
+print('Digite algumas informações necessárias para o cálculo da prestação em atraso')
+valor = float(input('digite o valor: '))
+taxa = float(input('digite a taxa: '))
+tempo = float(input('digite o tempo: '))
+prestacao = valor + (valor*(taxa/100)*tempo)
+print('a prestação, devido ao atraso, será de : {}'.format(prestacao))
