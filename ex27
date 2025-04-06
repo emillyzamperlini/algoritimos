@@ -1,0 +1,9 @@
+lista = []
+
+for c in range(1,16):
+    valor = float(input('numero {}: '.format(c)))
+    lista.append(valor)
+    print('fim')
+
+for valor in lista: 
+    print(valor**0.5)

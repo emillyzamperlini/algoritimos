@@ -1,0 +1,9 @@
+for c in range(0,6):
+    n = int(input("digite um numero"))
+    quadrado = n**2
+    print("quadrado do numero: {}".format(quadrado))
+print('fim')
+
+#odaria pra usar listas --append, mas não sei se poderia 
+
+

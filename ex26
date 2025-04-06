@@ -1,0 +1,7 @@
+for c in range(1,11) :
+    if c%2 == 0 : #o módulo retorna o resto 
+        print(c)
+    else : #não tem necessidade mas é por estética 
+        continue
+print('fim')
+#números pares == divididos por 2 o resto é 0 
